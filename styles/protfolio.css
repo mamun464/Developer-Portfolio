@@ -24,16 +24,34 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
 
-
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
 
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 
+}
+
+.banner-greeting{
+    color: #474747;
+}
+
+.banner p{
+    color: #757575;
 }
 
 nav>ul {
@@ -49,6 +67,9 @@ nav li {
     
 
 
+}
+.header{
+    background-color: #FFF8F3;
 }
 
 nav a {

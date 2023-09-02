@@ -5,7 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -127,11 +130,44 @@ nav a {
 }
 
 .section-despt {
-    color:  #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
-    
+
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+
+    /* 150% */
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.info-despt {
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 0 px;
+    padding-top: 0px;
+}
+
+#what-i-do-despt{
+    padding: 30px 150px;
 }

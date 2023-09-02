@@ -5,10 +5,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
+
+main section {
+    margin-top: 130px;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -145,6 +151,7 @@ nav a {
 }
 
 .about-info {
+
     text-align: center;
 
     /* 150% */
@@ -160,7 +167,7 @@ nav a {
 }
 
 .info-despt {
-    color:  #474747;
+    color: #474747;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
@@ -168,6 +175,28 @@ nav a {
     padding-top: 0px;
 }
 
-#what-i-do-despt{
+#what-i-do-despt {
     padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-despt {
+    color: #757575;
+}
+
+.resume-column-title {
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
 }

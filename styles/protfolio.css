@@ -27,16 +27,19 @@ nav {
     margin: 0px 200px;
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 584px;
     height: 676px;
     flex-shrink: 0;
+
+
 }
 
 .nav-title {
@@ -46,13 +49,33 @@ nav {
 
 }
 
-.banner-greeting{
+.banner-greeting {
     color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
 }
 
-.banner p{
-    color: #757575;
+.banner-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
+
+.banner-despt {
+    margin: 0px;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+
 
 nav>ul {
     display: flex;
@@ -64,12 +87,16 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 51px;
-    
+
 
 
 }
-.header{
+
+.header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav a {
@@ -80,4 +107,31 @@ nav a {
 
     font-weight: 400;
 
+}
+
+/* section about */
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-despt {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
